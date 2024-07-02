@@ -29,6 +29,105 @@ void loop() {
      for(i=0;i<1000000;i++);
 }
 //---------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-----------------------
+// This is the code for Part 3  
+#include "Dhruv.h"
+void setup() {
+  // put your setup code here, to run once:
+  initport();
+}
+
+void loop() {
+    // put your main code here, to run repeatedly:
+     volatile long i ;
+     volatile char x ;
+     x = 0x01; 
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x03;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x07;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x0F;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x1F;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x3F;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x7F;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0xFF;
+     output(x);
+     for(i=0;i<1000000;i++);
+}
+//---------------------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-----------------------
+// This is the Code for Part 4 
+#include "Dhruv.h"
+void setup() {
+  // put your setup code here, to run once:
+  initport();
+}
+
+void loop() {
+    // put your main code here, to run repeatedly:
+     volatile long i ;
+     volatile char x ;
+     x = 0x01; 
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x02;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x04;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x08;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x10;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x20;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x40;
+     output(x);
+     for(i=0;i<1000000;i++);
+     x = 0x80;
+     output(x);
+     for(i=0;i<1000000;i++);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
